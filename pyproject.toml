@@ -57,7 +57,7 @@ zstd = [
 ]
 
 [project.scripts]
-httpx = "httpx:main"
+httpx = "httpx.__main__:main"
 
 [project.urls]
 Changelog = "https://github.com/encode/httpx/blob/master/CHANGELOG.md"
